@@ -1,58 +1,14 @@
-ul#menu li{
-    display:inline;
-}
-.navigation-bar{
-    box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
-    padding-top:20px;
-    padding-bottom:10px;
-}
-.navbar-item{
-    padding-left:850px;
-    margin-top:20px;
-    font-family:'Barlow', sans-serif;
-    font-size:18px;
-    color:black;
-    text-decoration: none;
-}
-.navbar-item:link {
-    color:black;
-    text-decoration: none;
-}
-.navbar-item:visited {
-    color:black;
-    text-decoration: none;
-}
-.navbar-item:hover {
-    color:black;
-    text-decoration: none;
-} 
-.navbar-item:active {
-    color:black;
-    text-decoration: none;
-}
-.navbar-item-1{
+#navbar-item{
     padding-left:50px;
     padding-top:20px;
     font-family:'Barlow', sans-serif;
     font-size:18px;
-    color:black;
-    text-decoration: none;
 }
-.navbar-item-1:link {
-    color:black;
-    text-decoration: none;
-}
-.navbar-item-1:visited {
-    color:black;
-    text-decoration: none;
-}
-.navbar-item-1:hover {
-    color:black;
-    text-decoration: none;
-} 
-.navbar-item-1:active {
-    color:black;
-    text-decoration: none;
+#navbar-item-1{
+    padding-left:50px;
+    padding-top:20px;
+    font-family:'Barlow', sans-serif;
+    font-size:18px;
 }
 #main {
     height: auto;
@@ -74,7 +30,6 @@ ul#menu li{
 .page-text{
     padding-top:10px;
     font-family: 'Barlow', sans-serif;
-    width:45%;
     font-size:20px;
 }
 .arrow-image{
@@ -94,19 +49,12 @@ ul#menu li{
     text-align: center;
     font-family:'Barlow', sans-serif;
     padding-bottom:50px;
-    width:30%;
+    
     margin:auto auto;
     font-size:20px;
 }
-.icons {
-    height: auto;
-    margin: auto auto;
-    width: 70%;
-    text-align: center;
-    max-width: 800px;
-}
-#circle-icon{
-    display:inline-flex;
+.circle-icon{
+    display:inline-block;
     height:170px;
     width:170px;
     border-radius:50%;
@@ -123,14 +71,11 @@ ul#menu li{
 .page-text-team{
     font-family: 'Barlow', sans-serif;
     text-align:center;
-    width:25%;
+    
     margin:auto auto;
     padding-top:10px;
     padding-bottom:40px;
     font-size:20px;
-}
-.wrapper{
-    text-align:center;
 }
 .button-team{
     padding: 10px 40px;
@@ -149,51 +94,34 @@ ul#menu li{
     color: white;
     text-decoration:none;
 }
-.button-project{
-   
+.btn-cover {
+    height : auto;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    text-align: center
+}
+button {
+    min-width: 120px;
+}
+#button-project{
     padding: 10px 40px;
     background-color:black;
     color:white;
     font-family:'Barlow', sans-serif;
     font-size:27px;
     text-align:center;
-    text-decoration:none;
-    display:inline-block;
-    border-radius:4px;
-    cursor:pointer;
 }
-.button-project:hover{
-    background-color:black;
-    color: white;
-    text-decoration:none;
-}
-.button-update{
-    margin-left:50px;
+#button-workshops{
+    
     padding: 10px 40px;
     background-color:black;
     color:white;
     font-family:'Barlow', sans-serif;
     font-size:27px;
     text-align:center;
-    text-decoration:none;
-    display:inline-block;
-    border-radius:4px;
-    cursor:pointer;
-}
-.button-update:hover{
-    background-color:black;
-    color: white;
-    text-decoration:none;
-}
-.icons1 {
-    height: auto;
-    margin: auto auto;
-    width: 70%;
-    text-align: center;
-    max-width: 800px;
 }
 .circle1-icon{
-    display:inline-flex;
+    display:inline-block;
     height:50px;
     width:50px;
     border-radius:50%;

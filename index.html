@@ -12,26 +12,40 @@
 <body>
     <section>
         <div>
-            <!-- <nav class="navbar navbar-expand-lg navbar-light" style="background: transparent;">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> -->
-            <div class="navigation-bar">
-                <ul id="menu">
-                    <li><a href="#" class="navbar-item">Home</a></li>
-                    <li><a href="#" class="navbar-item-1">Our Focus</a></li>
-                    <li><a href="#" class="navbar-item-1">The Team</a></li>
-                    <li><a href="#" class="navbar-item-1">Updates</a></li>
-                    <li><a href="#" class="navbar-item-1">Contact Us</a></li>
-                </ul>
-            </div>
-           <!-- </nav> --> 
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                      
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" id="navbar-item">Home</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" id="navbar-item-1">Our Focus</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" id="navbar-item-1">The Team</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" id="navbar-item-1">Updates</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" id="navbar-item-1">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
             
             <div class="container-fluid" id="main">
-                <div class="row">
-                    <div class="col-12">
+                <div class="row" >
+                    <div class="col-12 col-lg-6" style="height:auto">
                         <div class="page-title">
                         <h1> DSC VIT Vellore </h1>
                         </div>
@@ -44,11 +58,14 @@
                             inspires thousands. Join Us!</p>
                         </div>
                     </div>
+                    <div class="col-12 col-lg-6 d-none d-lg-block" style="height:200px"></div>
                 </div>
             </div>
-            <div class="img-responsive">
-                <div class="arrow-image">
-                    <img src="./assets/down-arrow.png">
+            <div class="row">
+                <div class="col-12" style="text-align:center">
+                    <div class="arrow-image">
+                        <img src="./assets/down-arrow.PNG">
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,7 +74,7 @@
         <div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 col-lg-4 offset-lg-4" style="text-align:center; height:auto">
                         <div class="page-head-work">
                             <h1>Our Work</h1>
                         </div>
@@ -74,10 +91,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="icons">
-                    <div class="col-12" id="circle-icon"></div>
-                    <div class="col-12" id="circle-icon"></div>
-                    <div class="col-12" id="circle-icon"></div>
+                <div class="col-12 col-lg-6 offset-lg-3" style="text-align:center">
+                    <div class="icons" style="text-align:center">
+                        <div class="circle-icon"></div>
+                        <div class="circle-icon"></div>
+                        <div class="circle-icon"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,7 +104,7 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 col-lg-4 offset-lg-4" style="text-align:center; height:auto">
                     <div class="page-head-team">
                         <h1>Get to know the team</h1>
                     </div>
@@ -100,7 +119,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 col-lg-4 offset-lg-4" style="text-align:center; height:auto">
                     <div class="page-head-team">
                         <h1>Our Alumni</h1>
                     </div>
@@ -119,7 +138,7 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 col-lg-4 offset-lg-4" style="text-align:center; height:auto">
                     <div class="page-head-team">
                         <h1>Updates</h1>
                     </div>
@@ -128,14 +147,16 @@
                             We are actively conducting workshops, and also contributing to the development side by churning out high quality projects.
                         </p>
                     </div>
-                    <div class="wrapper">
-                        <span>
-                            <a href="#" class="button-project">Projects</a>
-                        </span>
-                        <span>
-                            <a href="#" class="button-update">Workshops</a>
-                        </span>
-                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="margin-top:20px; text-align:center">
+            <div class="row">
+                <div class="col-12 col-lg-2 offset-lg-4 btn-cover">
+                    <button class="btn btn-dark" id="button-project">Projects</button>
+                </div>
+                <div class="col-12 col-lg-2 btn-cover">
+                    <button class="btn btn-dark" id="button-workshops">Workshops</button>
                 </div>
             </div>
         </div>
@@ -143,7 +164,7 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 col-lg-4 offset-lg-4" style="text-align:center; height:auto">
                     <div>
                         <div class="page-head-team">
                             <h1>Contact us</h1>
@@ -153,7 +174,7 @@
                                 We’re very active on social media.
                             </p>
                         </div>
-                        <div class="icons1">
+                        <div class="icons1" style="text-align:center">
                             <div class="circle1-icon"></div>
                             <div class="circle1-icon"></div>
                             <div class="circle1-icon"></div>
@@ -164,7 +185,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 col-lg-4 offset-lg-4" style="text-align:center; height:auto">
                     <div class="page-head-team">
                         <h1>Submit an idea</h1>
                     </div>
@@ -180,5 +201,9 @@
             </div>
         </div>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
