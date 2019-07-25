@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 #navbar-item{
     padding-left:50px;
     padding-top:20px;
@@ -141,4 +145,29 @@ button {
     color: white;
     text-decoration:none;
 }
-
+.page-title-2{
+    font-family: 'Barlow', sans-serif;
+    font-weight:lighter;
+}
+.page-head-2{
+    padding-top:10px;
+    font-family: 'Barlow', sans-serif;
+    font-weight:bolder;
+    font-size:30px;
+}
+.board{
+    text-align:center;
+    font-family: 'Barlow', sans-serif;
+    font-weight:bolder;
+    padding-top:80px;
+    width:100%;                                     /*adding this centered the text*/
+}
+.icons-3{
+    padding-top:50px;
+    
+    text-align:center;
+}
+.text-name{
+    font-size:15px;
+    font-weight:bold;
+}
