@@ -1,7 +1,6 @@
 html{
     scroll-behavior: smooth;
 }
-
 #navbar-item{
     padding-left:50px;
     padding-top:20px;
@@ -110,7 +109,6 @@ button {
     text-align:center;
 }
 #button-workshops{
-    
     padding: 10px 40px;
     background-color:black;
     color:white;
@@ -165,9 +163,27 @@ button {
 .icons-3{
     padding-top:50px;
     text-align:center;
-    
 }
 .text-name{
     font-size:15px;
     font-weight:bold;
+}
+.rectangle-icon{
+    height:230px;
+    width:180px;
+    border-radius:20px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+    display:inline-block;
+}
+.project-name{
+    width:180px;
+    height:40px;
+    background:black;
+    border-radius:10px;
+    line-height:40px;
+    bottom:0;
+    color:white;
+    font-weight:bolder;
+
+    
 }
