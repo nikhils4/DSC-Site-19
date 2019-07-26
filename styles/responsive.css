@@ -159,13 +159,13 @@ button {
     text-align:center;
     font-family: 'Barlow', sans-serif;
     font-weight:bolder;
-    padding-top:80px;
+    padding-top:100px;
     width:100%;                                     /*adding this centered the text*/
 }
 .icons-3{
     padding-top:50px;
-    
     text-align:center;
+    
 }
 .text-name{
     font-size:15px;
