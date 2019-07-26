@@ -170,10 +170,9 @@ button {
 }
 .rectangle-icon{
     height:230px;
-    width:180px;
+    border: 2px solid black;
     border-radius:20px;
     box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
-    display:inline-block;
 }
 .project-name{
     width:100%;
