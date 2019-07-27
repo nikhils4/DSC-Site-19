@@ -8,6 +8,9 @@ html{
     font-family:'Barlow', sans-serif;
     font-size:18px;
 }
+#shadow{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+}
 #main {
     height: auto;
     padding-left: 100px;
@@ -99,7 +102,7 @@ html{
     text-align: center
 }
 button {
-    min-width: 120px;
+    min-width:0px;
 }
 #button-project{
     padding: 10px 40px;
